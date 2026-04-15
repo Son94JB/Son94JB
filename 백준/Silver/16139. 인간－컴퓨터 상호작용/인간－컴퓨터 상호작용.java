@@ -5,6 +5,7 @@ public class Main {
     public static int[] prefix;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
         String str = br.readLine();
         int q = Integer.parseInt(br.readLine());
 
@@ -31,7 +32,8 @@ public class Main {
 
             // l이 0이면 그냥 prefix[r], 아니면 prefix[r] - prefix[l-1]
             int result = (l == 0) ? prefix[r] : prefix[r] - prefix[l - 1];
-            System.out.println(result);
+            sb.append(result).append("\n");
         }
+        System.out.print(sb);
     }
 }
