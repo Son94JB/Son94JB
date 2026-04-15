@@ -20,9 +20,9 @@ public class Main {
 
             for (int j = 1; j < str.length(); j++) {
                 if (str.charAt(j) == a) {
-                    prefix[j] = prefix[j - 1] + 1; // ✅ +1 누적
+                    prefix[j] = prefix[j - 1] + 1;
                 } else {
-                    prefix[j] = prefix[j - 1]; // ✅ 이전 값 전파
+                    prefix[j] = prefix[j - 1];
                 }
             }
 
