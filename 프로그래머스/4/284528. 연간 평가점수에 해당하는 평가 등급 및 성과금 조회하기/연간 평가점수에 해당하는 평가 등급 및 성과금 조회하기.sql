@@ -1,0 +1,19 @@
+-- 코드를 작성해주세요
+SELECT e.EMP_NO, e.EMP_NAME,
+    CASE WHEN g.AVG_SCORE >= 96 THEN 'S'
+         WHEN g.AVG_SCORE >= 90 THEN 'A'
+         WHEN g.AVG_SCORE >= 80 THEN 'B'
+         ELSE 'C'
+    END AS GRADE,
+    CASE WHEN g.AVG_SCORE >= 96 THEN e.SAL * 0.2
+         WHEN g.AVG_SCORE >= 90 THEN e.SAL * 0.15
+         WHEN g.AVG_SCORE >= 80 THEN e.SAL * 0.1
+         ELSE 0
+    END AS BONUS
+FROM HR_EMPLOYEES e
+JOIN (
+    SELECT EMP_NO, AVG(SCORE) AS AVG_SCORE
+    FROM HR_GRADE
+    GROUP BY EMP_NO
+) g ON e.EMP_NO = g.EMP_NO
+ORDER BY e.EMP_NO ASC
