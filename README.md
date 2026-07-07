@@ -1,8 +1,8 @@
 ### Hi! I'm SON JUNBAE. I want to contribute goodness to people !!
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSon94JB%2Fhit-counter&count_bg=%23162B96&title_bg=%23434141&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FSon94JB&label=hits&icon=github&color=%23052c65&message=&style=for-the-badge&tz=UTC)
 
-![Junbae's GitHub stats](https://github-readme-stats.vercel.app/api?username=Son94JB&theme=nightowl&show_icons=true)
+![Junbae's GitHub stats](https://github-readme-stats-git-master-son94jbs-projects.vercel.app/api?show_icons=true&username=Son94JB&theme=nightowl)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=thswnsqo99)](https://solved.ac/thswnsqo99/)
 
 # Skills🛠
